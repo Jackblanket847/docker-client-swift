@@ -30,3 +30,4 @@ public final class DockerClient {
         return try CURLTask(request: request, unixSocketPath: self.unixSocketPath).perform()
     }
 }
+
